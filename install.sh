@@ -1,7 +1,7 @@
 #!/bin/bash
 WHOM=$(whoami)
 HERE=$(pwd)
-reqpkgs=(awesome vicious conky awesome-freedesktop nitrogen rofi manjaro-zsh-config)
+reqpkgs=(awesome vicious conky awesome-freedesktop nitrogen rofi manjaro-zsh-config neofetch)
 installpkgs() {
   sudo pacman -S ${reqpkgs[@]}
   cpbins
